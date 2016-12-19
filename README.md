@@ -11,4 +11,4 @@ Go to your terminal and type:
 ##Add different component
 * Go to src/index.js file
 * Write the name of Component that you want to render. 
-For example: ```sh ReactDOM.render(<GoodComponent posts={posts} />, document.getElementById('app'));``` will render the GoodComponent.
+For example: ```ReactDOM.render(<DemoComponent />, document.getElementById('app'));``` will render the GoodComponent.
