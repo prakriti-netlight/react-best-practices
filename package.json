@@ -1,13 +1,13 @@
 {
   "name": "react-best-practices",
   "version": "1.0.0",
-  "description": "\"This project is made for codepub meetup\"",
+  "description": "This project is made for codepub meetup",
   "main": "index.js",
   "scripts": {
-    "develop": "parallelshell 'npm run webpack:watch:dev' 'npm start'",
+    "develop": "parallelshell \"npm run webpack:watch:dev\" \"npm start\"",
     "start": "nodemon server.js",
     "less": "lessc --compress frontend/less/all.less > public/build/bundle.css",
-    "less:watch": "nodemon --watch frontend/less --ext css,less --exec 'npm run less'",
+    "less:watch": "nodemon --watch frontend/less --ext css,less --exec \"npm run less\"",
     "webpack:watch:dev": "webpack --progress --colors --watch"
   },
   "author": "Prakriti Tiwari",
