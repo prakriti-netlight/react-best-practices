@@ -12,5 +12,6 @@ class CodePub extends Component {
 }
 
 CodePub.propTypes = {
-title: PropTypes.string
+  title: PropTypes.string.isRequired,
+  date: PropTypes.instanceOf(Date)
 };

@@ -5,6 +5,6 @@ const CodePub = (props) =>
     <h2>{props.date}</h2>
   </div>;
 CodePub.propTypes = {
-title: PropTypes.string
+  title: PropTypes.string
 };
 
