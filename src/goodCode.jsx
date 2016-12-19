@@ -23,7 +23,7 @@ const Post = (props) => (
 );
 
 Post.propTypes = {
-  posts: PropTypes.arrayOf(PropTypes.shapeOf({
+  posts: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: PropTypes.string
   }))
