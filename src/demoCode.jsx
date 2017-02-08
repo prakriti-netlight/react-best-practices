@@ -13,7 +13,7 @@ class DemoComponent extends Component {
       <div className="App">
         <div className="App-header">
           <img src="/images/logo.png" className="App-logo" alt="logo" />
-          <h2>Welcome to React Best Practices Christmas Edition</h2>
+          <h2>Welcome to React Best Practices Munich Edition</h2>
         </div>
         <h3>Number: {this.state.number}</h3>
         <button onClick={() => this.increment()}>Increment</button>
